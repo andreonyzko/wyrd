@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --black: #000000;
+    --gray: #1A1A1A;
+    --gray-light: #494949;
+    --white: #ffffff;
+    --cream-dark: #CACAB9;
+    --cream-medium: #E7E7D9;
+    --cream-light: #F7F7EF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+#header{
+    background-color: var(--cream-light);
+    height: 80px;
+}
+
+#nav{
+    background-color: var(--black);
+    height: 60px;
+}
+
+main{
+    background-color: var(--cream-light);
+}
+
+.location{
+    font-size: 0.85rem;
+    padding: 3% 3%;
+}
+
+.location span{
+    color: var(--gray-light);
+}
+
+.underline{
+    text-decoration: underline;
+}
