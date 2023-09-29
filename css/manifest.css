@@ -9,5 +9,94 @@
     --cream-dark: #CACAB9;
     --cream-medium: #E7E7D9;
     --cream-light: #F7F7EF;
-    --font1: "'Poppins', sans-serif";
+}
+
+#first-section-manifest{
+    background-image: url(../img/Screenshot_20.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#second-section-manifest{
+    padding: 5% 23%;
+    text-align: center;
+    font-weight: 400;
+}
+
+#third-section-manifest{
+    background-color: var(--black);
+    color: white;
+    min-height: 125vh;
+    max-height: fit-content;
+}
+
+#third-section-manifest div{
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+#image-third-section-manifest{
+    background-image: url(../img/george-orwell-i-tried-to-warn-you-shirt.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+}
+
+#third-section-manifest p{
+    margin: auto;
+    margin-top: 50%;
+    width: 65%;
+    text-align: justify;
+    opacity: 0.85;
+}
+
+#fourth-section-manifest{
+    height: fit-content;
+    outline: 1px rgba(0, 0, 0, 0.822) solid;
+}
+
+#fourth-section-manifest img{
+    width: 100%;
+}
+
+#last-section-manifest{
+    padding: 8% 8%;
+}
+
+.background-itens-last-section-manifest{
+    display: inline-block;
+    width: 28%;
+    min-height: 26vw;
+    max-height: fit-content;
+    vertical-align: top;
+    border-radius: 10%;
+    margin: 0 2%;
+}
+
+.itens-last-section-manifest{
+    padding: 6% 10%;
+    vertical-align: middle;
+    font-size: 0.9rem;
+}
+
+.imgs-last-section-manifest{
+    text-align: center;
+    margin: 15% 0;
+}
+
+.imgs-last-section-manifest img{
+    width: 40%;
+}
+
+#monitorimg-last-section-manifest{
+    margin-top: -17vh;
+    width: 90%;
+}
+
+.itens-last-section-manifest p{
+    text-align: justify;
 }

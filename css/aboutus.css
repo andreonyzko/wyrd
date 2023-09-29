@@ -9,7 +9,6 @@
     --cream-dark: #CACAB9;
     --cream-medium: #E7E7D9;
     --cream-light: #F7F7EF;
-    --font1: "'Poppins', sans-serif";
 }
 
 #first-section-aboutus{
@@ -17,7 +16,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45vw;
+    height: 100vh;
 }
 
 #middle-section-aboutus{
