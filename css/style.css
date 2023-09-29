@@ -17,21 +17,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header{
-    position: sticky;
-    top: 0;
-}
-
-#header{
-    background-color: var(--cream-light);
-    height: 80px;
-}
-
-#nav{
-    background-color: var(--black);
-    height: 60px;
-}
-
 main{
     background-color: var(--cream-light);
 }
